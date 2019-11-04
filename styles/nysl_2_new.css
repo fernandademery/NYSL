@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 1px;
+    background-color: green;
+    font-size: 40px;
+    margin: 0;
+    padding: 5px;
+    color: aliceblue
+}
+
+nav {
+    position: relative;
+    float: right;
+    background-color: palegreen;
+    top: -555px;
+    font-size: 30px;
+    padding: 8px;
+}
+
+nav a {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav a:hover {
+    color: beige;
+    background-color: green;
+}
+
+nav a.active {
+    color: beige;
+    background-color: green;
+    padding-left: 20px;
+}
+
+h2 {
+    position: absolute;
+    top: 530px;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 40px;
+    margin: 0;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+h3 {
+    padding-top: 10px;
+    margin-left: 260px;
+}
+
+p {
+    margin-left: 280px;
+}
+
+#contact {
+    margin-top: 70px;
+}

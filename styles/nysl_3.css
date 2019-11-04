@@ -1,0 +1,114 @@
+header .topnav {
+    background-color: #1EB320;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin-top: 630px;
+}
+
+.topnav a {
+    color: azure;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 30px;
+}
+
+.sidenav {
+    display: none;
+}
+
+#imgheader {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 40px;
+    padding: 0;
+
+}
+
+#logo3 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.topnav a:hover,
+.current {
+    background-color: #ABFFC6;
+    color: black;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.topnav .active {
+    background-color: #ABFFC6;
+    color: black;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+@media all and (max-width: 640px) {
+    nav a {
+        display: block;
+    }
+}
+
+h2 img {
+    display: none;
+}
+
+h2 {
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: green;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.logo {
+    display: none;
+}
+
+h3 {
+    margin-left: 450px;
+    margin-top: 20px;
+    color: green;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+p {
+    margin-left: 480px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}

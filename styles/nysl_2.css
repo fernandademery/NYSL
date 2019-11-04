@@ -1,0 +1,121 @@
+.sidenav {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#imgheader {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    padding-top: 0px;
+}
+
+header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 28px;
+    left: 376px;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    font-size: 50px;
+    padding: 0;
+
+}
+
+.topnav {
+    background-color: green;
+    color: white;
+    float: right;
+    width: 40.5%;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 15px;
+    position: sticky;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: azure;
+    padding: 10px 8px 20px 12px;
+    
+}
+
+.topnav a:hover {
+  color: teal;
+  background-color: black;
+}
+
+div>.active {
+    background-color: white;
+    color: black;
+}
+
+.topnav a:active {
+    background-color: black;
+}
+
+/* 
+
+.mynav {
+    display: none;
+} 
+
+*/
+
+h2 img {
+    display: none;
+}
+
+h2 {
+    margin: 0;
+    background-color: darkseagreen;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: darkseagreen;
+}
+
+.logo {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p {
+    margin-left: 280px;
+    margin-top: 0;
+}
+
+#logo3 {
+    display: none;
+}
+/* no path no HTML pra selecionar coisas (tipo o style ou imagens), pra voltar uma pasta, usa-se um ponto antes do nome da pasta. Tipo: ./styles. Para voltar duas vezes, usa-se dois pontos: ../styles/file.css. */
+
+/* Baixar Emmet no visual studio. */

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    top: -575px;
+    background-color: green;
+    font-size: 30px;
+}
+
+h2 {
+    position: absolute;
+    top: 530px;
+    padding-left: 450px;
+    padding-right: 430px;
+    background-color: lightgray;
+    font-size: 50px;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    z-index: 9999;
+}
+
+nav {
+    float: left;
+    margin-top: 20px;        
+    margin-left: 30px;
+}
+
+nav a {
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;   
+    background-color: palegreen;
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+
+}
+
+nav a:hover {
+    color: beige;
+    background-color: green;
+}
+
+nav a.active {
+    color: beige;
+    background-color: green;
+}
+
+h3 {
+    margin-left: 230px;
+}
+
+p {
+    margin-left: 250px;
+}
+
+#contact {
+    margin-top: 70px;
+}

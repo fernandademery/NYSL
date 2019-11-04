@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#imgheader {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.topnav {
+    display: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+  font-size: 50px;
+  padding: 0;
+
+}
+
+nav {
+    display: block;
+}
+
+.sidenav {
+  width: 160px; /* Set the width of the sidebar */
+  position: static; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 5; /* Stay on top */
+  margin-top: 20px; /* Stay at the top */
+  left: 0;
+  background-color: palegreen; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.sidenav a {
+  padding: 10px 8px 20px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: green;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.active {
+    background-color: white;
+}
+
+.main {
+  margin-left: 10px;
+  padding: 0;
+    width: 80%;
+}
+
+main {
+            display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    flex: 1 100%;
+    font-family: sans-serif;
+        }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    h2 {text-align: center;}
+}
+
+h2 {
+    background-color: gainsboro;
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+h2 img {
+    margin-left: 400px;
+    margin-right: 90px;
+}
+
+
+p {
+    margin-left: 30px;
+    max-width: 60%;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+h3 {
+    padding: 10px;
+    max-width: 60%;
+    padding-top: 0;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+.logo {
+    display: none;
+}
+
+#logo3 {
+    display: none;
+}

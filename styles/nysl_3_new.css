@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 250px;
+    float: left;
+    width: 100px;
+    padding-left: 240px;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-left: 360px;
+    margin-top: 0;
+    padding-top: 5px;
+    color: green;
+    animation-name: animation1;
+    animation-duration: 3s;
+}
+
+@keyframes animation1 {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: lightgreen;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+nav {
+    background-color: #1EB320;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin-top: 360px;
+}
+
+nav a {
+    color: azure;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 30px;
+}
+
+nav a:hover {
+    background-color: #ABFFC6;
+    color: black;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+nav a.active {
+    background-color: #ABFFC6;
+    color: black;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+h2 {
+    position: absolute;
+    top: 500px;
+    float: left;
+    font-family: 'Big Shoulders Text', cursive;
+    color: green;
+    padding-left: 170px;
+    font-size: 30px;
+}
+
+#titlerules {
+    position: absolute;
+    top: 430px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.h2about {
+    position: absolute;
+    top: 550px;
+}
+
+.h2game {
+    position: absolute;
+    padding-left: 80px;
+}
+
+main {
+    position: absolute;
+    top: 430px;
+    padding-left: 450px;
+    float: right;
+}
+
+.hover:hover {
+    background-color: lightgray;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+.mainabout {
+    padding-left: 380px;
+    padding-right: 80px;
+}
+
+.maingame {
+    padding-left: 50px;
+}
+
+.mainregist {
+    padding-left: 100px;
+    width: 1150px;
+}
+
+h3 {
+    color: green;
+    font-family: 'Big Shoulders Text', cursive;
+
+}
+
+div h3 a {
+    text-decoration: none;
+    color: green;
+}
+
+.h3rules {
+    padding-top: 20px;
+}
+
+.h3game {
+    padding-left: 370px;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact {
+    margin-top: 70px;
+}
+
+#prules {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_rules {
+    padding-right: 150px;
+    padding-left: 100px;
+    text-align: justify;
+    padding-top: 90px;
+}
+
+ol,
+ul {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.letter {
+    list-style-type: lower-latin;
+}
+
+.p_info {
+    text-decoration: underline;
+    padding-left: 350px;
+}
+
+table {
+    display: inline;
+}
+
+.table1 {
+    padding-left: 310px;
+}
+
+
+th {
+    font-size: 18px;
+    font-family: 'Big Shoulders Text', cursive;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+td {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    text-align: left;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+.table2 {
+    padding-left: 50px;
+}
+
+table tr:nth-child(even) {
+    background: #f0f0f2;
+}
+
+.tablocation {
+    padding-top: 100px;
+    padding-left: 0;
+    margin-left: 180px;
+}
+
+.tablocation td {
+    text-align: left;
+    padding-right: 50px;
+    background: white;
+    padding-bottom: 50px;
+
+}
+
+.tablocation tr {
+    padding-top: 50px;
+}
+
+caption {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: left;
+    padding-left: 330px;
+    font-size: 35px;
+    font-weight: bold;
+    color: green;
+    background-color: lightgray;
+}
+
+.plocation {
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+form {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    width: 210px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+input[type="date"] {
+    width: 210px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+input[type="tel"] {
+    width: 210px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+input[type="email"] {
+    width: 210px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+#street {
+    width: 570px;
+}
+
+#parent {
+    width: 557px;
+}
+
+.ginfo {
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 370px;
+}
+
+label,
+input {
+    padding-top: 20px;
+    align-self: flex-end;
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.position label {
+    display: inline-block;
+}
+
+.uniform {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.uniform label {
+    padding-right: 100px;
+    align-self: center;
+}
+
+.formgrade {
+    padding-top: 20px;
+}
+
+legend {
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+fieldset p {
+    text-align: justify;
+    width: 1000px;
+}
+
+input[type="submit"] {
+    background: #333;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+footer {
+    position: relative;
+    top: 360px;
+    text-align: center;
+    background-color: #ABFFC6;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerabout {
+    top: 480px;
+}
+
+.footerrules {
+    top: 3700px;
+}
+
+.footerginfo {
+    top: 2850px;
+}
+
+.footerreg {
+    top: 1180px;
+}
+
+.footercontact {
+    top: 280px;
+}
+
+footer a {
+    color: green;
+}
