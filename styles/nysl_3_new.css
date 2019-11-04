@@ -120,6 +120,15 @@ main {
     float: right;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid>div {
+    grid-column: 1/4;
+}
+
 .hover:hover {
     background-color: lightgray;
     padding: 5px;
